@@ -1,0 +1,17 @@
+.firstrow{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.secondrow{
+    margin-left: 10px;
+}
+
+section{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.firstrow p{
+    margin-top: 20px;
+}

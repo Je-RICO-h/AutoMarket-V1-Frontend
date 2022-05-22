@@ -1,0 +1,43 @@
+fieldset{
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 20px;
+}
+
+legend{
+    margin-top: 3%;
+}
+
+input[type="text"]{
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: aliceblue;
+    padding-left: 10px;
+    max-width: 250px;
+    margin-left: 5%;
+}
+
+label{
+    margin-left: 5%;
+    margin-bottom: 3%;
+}
+
+input[type="checkbox"],label[for="gas"],label[for="dis"],label[for="hyb"],label[for="lpg"]{
+    cursor: pointer;
+}
+
+input[type="submit"]{
+    margin-top: 60px;
+    width: 100px;
+    height: 50px;
+    float: right;
+    background-color: transparent;
+    color: aliceblue;
+    border: 3px solid white;
+    border-radius: 5px;
+}
+
+input:hover,input:focus{
+    background-color: #222;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Project WIP...</title>
+        <meta name="description" content="Cars around Europe for sale">
+        <meta name="keywords" content="Cars,Selling Cars, Europe, For sale, Car4sale">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="JeRICOh">
+        <meta charset="utf-8">
+    <!-- BOOTSTRAP -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <!--           -->    
+    
+    <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="css/design.css">
+        <link rel="stylesheet" type="text/css" href="css/login.css">
+    <!--     -->
+
+    <!-- FONT AWESOME -->    
+    <script src="https://kit.fontawesome.com/ecf288ab4a.js" crossorigin="anonymous"></script>
+    <!--              -->
+    <!-- GOOGLE FONTS -->    
+    <link href='https://fonts.googleapis.com/css?family=Besley' rel='stylesheet'>
+    <!--              -->
+
+    </head>
+    
+    <body>
+        <div class="background"></div>
+        <div class="container positioner">
+
+        <header class="container">
+            <div class="row">
+                <div class="col-md-2 sect logonav" onclick="navbar()">
+                    <i class="fas fa-car" style="font-size: 35px;float: left;cursor: pointer">CarPark</i>
+                    <div class="dropdowncont">
+                        <i class="fas fa-home"><a href="index.html"> Home</a></i>
+                        <i class="fas fa-save"><a> Saved</a></i>
+                        <i class="fas fa-phone"><a> Contact</a></i>
+                        <i class="fas fa-star"><a> Premium</a></i>
+                    </div>
+                </div>
+
+                <div class="col-md-4 sect spacer"></div>
+
+                <div class="col-md-6 sect navbar">
+                    <i class="fas fa-user" style="font-size: 25px;"><a> User</a></i>
+                    <i class="fas fa-search" style="font-size: 25px;"><a href="search.html"> Search</a></i>
+                    <i class="fas fa-info" style="font-size: 25px;"><a> Info</a></i>
+                    <i class="fas fa-language" style="font-size: 25px;"><a> Lang</a></i>
+                </div>
+            </div>
+        </header>
+
+        <section class="container">
+            <form>
+                <fieldset>
+                    <legend>Login:</legend>
+                    <div class="row loginrow">
+
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" placeholder="E-mail" required><br>
+                        <label for="pass">Password:</label>
+                        <input type="password" id="pass" name="pass" placeholder="Password" required><br>
+
+                    </div>
+                    
+                    <div class="row registerrow">
+                        <label for="passag">Confirm Password:</label><br>
+                        <input type="password" id="passag" name="passag" placeholder="Password">
+                        
+                        <input type="checkbox" id="terms" for="terms" value="I have read the Terms of Service">
+                        <label for="terms" style="text-decoration: underline; cursor: pointer"> I have read the Terms of Service</label>
+                    
+                    </div>
+                    
+                    <div class="row otherrow">
+                        <input type="submit" value="Login">
+                        <p>Not a Member ? <a onclick="registerhandle()">Click Here!</a></p>
+                    </div>
+                    
+                </fieldset>
+            </form>
+        </section>
+        
+        <footer class="container">
+            <div class="row">
+                <div class="col terms">
+                    <i class="fas fa-book"><a> Terms of Service</a></i>
+                    <i class="fas fa-cookie"><a> About Cookies</a></i>
+                    <i class="fas fa-user-cog"><a src="myself.html"> About Myself</a></i>
+                    
+                </div>
+                <div class="col-6 midfield">
+                    <i class="fas fa-car" style="font-size: 40px;float: left;cursor: pointer"><a href="index.html">CarPark</a></i>
+                </div>
+                <div class="col infos">
+                    <p>&copy;JeRICOh 2021</p>
+                    <p>All Rights Reserved</p>
+                    <p>Ver. BETA 0.1</p>
+                </div>
+            </div>
+        </footer>
+            
+        </div>    
+        
+        <!-- JavaScript -->
+        <script src="script/mainscript.js"></script>
+        <!--            -->
+        
+    </body>
+</html>

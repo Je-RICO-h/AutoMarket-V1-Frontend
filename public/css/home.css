@@ -1,0 +1,40 @@
+h1{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: inline-block;
+}
+
+h1:hover{
+    background-color: #222;
+    border-radius: 10px;
+}
+
+.sponsored div{
+    background-color: transparent;
+    border: 1.5px solid white;
+    border-radius: 5px;
+    text-align: center;
+    height: 150px;
+    margin: auto;
+}
+
+section .row:nth-child(3){
+    margin-top: 40px;
+}
+
+h2{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+section p{
+    font-size: 20px;
+    text-align: center;
+}
+
+section a:hover{
+    background-color: #222;
+}
